@@ -1,5 +1,6 @@
 "use client";
 
+import LogOut from "@/components/LogOut";
 import { useRef, useState } from "react";
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
           type="text"
           placeholder="Paste your Url"
         />
-        <button className="w-[17%] h-full bg-teal-500 text-black text-shadow-lg text-lg font-medium cursor-pointer hover:bg-teal-800 hover:text-white transition duration-200">
+        <button className="w-[17%] h-full bg-teal-500 text-black text-shadow-lg text-lg font-medium cursor-pointer hover:bg-teal-400 transition duration-200">
           {inputValue ? "Shortens Url" : "Paste Url"}
         </button>
       </div>
